@@ -1,8 +1,7 @@
 ---
-- name: Hello World!
+- name: Ping
   hosts: all
 
   tasks:
-
-  - name: Hello World!
-    shell: echo "Hi! Tower is working!"
+  - name: ping
+win_ping:
